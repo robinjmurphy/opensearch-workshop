@@ -198,6 +198,21 @@ GET netflix/_search
 }
 ```
 
+If you try searching for a partial word here e.g. `Quee` you may be surprised to see that no results are returned:
+
+```
+GET netflix/_search
+{
+  "query": {
+    "match": {
+      "title": "Quee"
+    }
+  }
+}
+```
+
+That's because by default OpenSearch only considers _whole_ words as part of the tokenisation process that happens when a document is indexed. We'll look at how we can customise our index to support partial matches in the [text analysis](./3-text-analysis.md) exercise later on.
+
 This should give you a feel for the way queries are structured in the OpenSearch API. We've only touched on two query types `match` and `match_phrase` here but one of the powerful (and sometimes confusing!) features of OpenSearch is its wide range of [different query types](https://opensearch.org/docs/latest/query-dsl/full-text/index/).
 
 Now that you've had a chance to get to grips with the DevTools UI and ingested some data, it's time to learn more about how OpenSearch makes sense of the data you're indexing in the [mappings excerise](./3-mappings.md).
