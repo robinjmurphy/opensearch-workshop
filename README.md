@@ -67,39 +67,82 @@ And check you can access the Dashboards web UI at http://localhost:5601/.
 
 The username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`, which is configured in the `docker-compose.yml` file.
 
+## Exercies
+
+1. [Introduction](exercises/1-intro.md)
+2. [Query basics](exercises/2-basic-queries.md)
+3. [Mappings](exercises/3-query-basics.md)
+4. [Text analysis](exercises/4-text-analysis.md)
+5. [Advanced queries](exercises/5-advanced-queries.md)
+6. [Aggregations](exercises/6-aggregations.md)
+7. [Putting it all together](exercises/7-transactions.md)
+
 ## Demo
 
 - Docker setup
 - Dashboards, login
 - Devtools (cat, indexes)
 - Mappings - strict vs dynamic
+- Little bit of each exercise
 
-## Exercises
+## Notes
 
-- Load data
-- Devtools
+Goals:
+- Background on this session (BBC)
 
+- 1. Build familiarity with OpenSearch Devtools and docs (you can do everything from there)
+- 2. Understand some of the core concepts
+- 3. Learn some specifics that might be useful for us
+- 4. Practice some pairing and learn together - we need to develop some experience as a team - different to individual.
+- 5. Search is fairly subjective. It's fun to play around an get a feel for things. This does that.
 
-- Query basics
+### Basic queries (learn the query DSL)
 
-- Mappings/analysis
-- Partial/fuzzy
-- Ranking/weights/boosts
+- Find some data
+- Find matching films
+- Find films with certain subtitles
+- Find terms in any fields
+- "Find films featuring both X and Y actor"
+- Find all comedies staring Azis Ansari
 
-https://opensearch.org/docs/latest/query-dsl/compound/boosting/
+### Mappings and ingestion ?
 
-- Autocomplete
+- Data types
+- Keywords terms vs text
+- Custom date formats?
 
-- Aggs?
+### Text analysis
 
-- Open world challenge
-    - TX search
-    - Bring it all together with prompts
-    - Same title/subtitle - how do you score?
-    - Across accounts types
-    - Give example queries
-    - Give example filters
+- Solve for partial matching
+- First use ngram, then use search_as_you_type
 
-- sharding/replication
+### Advanced queries
+
+- Boost/weighting in the query (e.g. prefer title over subtitle)
+- Fuzzy search e.g. slop
+
+### Aggregations
+
+- Show how it works and get it going on some data
+- e.g. aggregate across 
+
+### Transaction search
+
+- Take what you've learnt
+- Build a good transaction search
+- Things to think about
+1. Fields to index and analyse
+2. Relative weighting of different fields e.g. subtitle
+3. Handling different account types - e.g. keyword
+- Example searches/use cases to try
+e.g. "Find all Tesco transactions above 5 pounds"
+
+---
+
+- sharding/replication?? If time
 
 TODO: Compare this list with the official training
+
+## Data sources
+
+* Netflix shows (https://www.kaggle.com/datasets/shivamb/netflix-shows)
