@@ -70,12 +70,11 @@ The username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`, which is conf
 ## Exercies
 
 1. [Introduction](exercises/1-intro.md)
-2. [Query basics](exercises/2-basic-queries.md)
-3. [Mappings](exercises/3-query-basics.md)
-4. [Text analysis](exercises/4-text-analysis.md)
-5. [Advanced queries](exercises/5-advanced-queries.md)
-6. [Aggregations](exercises/6-aggregations.md)
-7. [Putting it all together](exercises/7-transactions.md)
+2. [Mappings](exercises/2-mappings.md)
+3. [Text analysis](exercises/3-text-analysis.md)
+4. [Queries](exercises/4-queries.md)
+5. [Aggregations](exercises/5-aggregations.md)
+6. [Putting it all together](exercises/6-transactions.md)
 
 ## Demo
 
@@ -140,6 +139,7 @@ e.g. "Find all Tesco transactions above 5 pounds"
 ---
 
 - sharding/replication?? If time
+- Routing https://opensearch.org/docs/latest/search-plugins/searching-data/search-shard-routing/
 
 TODO: Compare this list with the official training
 
