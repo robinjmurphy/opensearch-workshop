@@ -1,8 +1,8 @@
 # 1. Introduction
 
-Start by making sure you've completed the [setup steps](../README.md#setup) and can access the OpenSearch Dahsboards UI locally.
+Start by making sure you've completed the [setup steps](../README.md#setup) and can access the [OpenSearch Dahsboards UI locally](http://localhost:5601/).
 
-Open the DevTools console at http://localhost:5601/app/dev_tools#/console.
+Open the DevTools console at http://localhost:5601/app/dev_tools#/console (the username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`).
 
 Start by listing the indices that are already initialised in the cluster using the [cat indices API](https://opensearch.org/docs/latest/api-reference/cat/cat-indices/). Enter the following request on the left hand side of the DevTools UI and hit `cmd` + `enter` to execute it.
 
@@ -12,7 +12,7 @@ GET _cat/indices
 
 You should see a list of built-in indices like `.opensearch-observability` and `.kibana_1`.
 
-Add column titles to the output using the `?v` param.
+You can add column titles to the output using the `?v` param.
 
 ```
 GET _cat/indices?v
@@ -36,7 +36,7 @@ PUT netflix
 
 This API call might look a bit odd because all of the operations on a specific index use the index name without a prefix in the URL path.
 
-Listing the indices again shoud show our empty index with 0 documents (`docs.count`) and minimal storage usage (`store.size`).
+Listing the indices again shoud show our empty index with 0 documents (`docs.count`) and minimal storage usage (`store.size`):
 
 ```
 GET _cat/indices?v
@@ -76,7 +76,7 @@ GET _cat/indices/netflix?v
 
 You should now see `8807` documents in the `docs.count`.
 
-We can take a look at this data by using the [search API](https://opensearch.org/docs/latest/api-reference/search/) and querying for all documents in the index with a [match all query](https://opensearch.org/docs/latest/query-dsl/match-all/). This isn't a query I'd expect to use in a real application, but it can be useful when you're debugging and you're not sure what data is conatained in an index:
+We can take a look at this data by using the [search API](https://opensearch.org/docs/latest/api-reference/search/) and querying for all documents in the index with a [match all query](https://opensearch.org/docs/latest/query-dsl/match-all/). This isn't a query you'd expect to use in a real application, but it can be useful for debugging when you're not sure what data is an index:
 
 ```
 GET netflix/_search
@@ -197,3 +197,7 @@ GET netflix/_search
   }
 }
 ```
+
+This should give you a feel for the way queries are structured in the OpenSearch API. We've only touched on two query types `match` and `match_phrase` here but one of the powerful (and sometimes confusing!) features of OpenSearch is its wide range of [different query types](https://opensearch.org/docs/latest/query-dsl/full-text/index/).
+
+Now that you've had a chance to get to grips with the DevTools UI and ingested some data, it's time to learn more about how OpenSearch makes sense of the data you're indexing in the [mappings excerise](./3-mappings.md).
