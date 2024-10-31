@@ -1,4 +1,4 @@
-# opensearch-playground
+# opensearch-workshop
 
 > A set of small challenges to help build familiarity with OpenSearch
 
