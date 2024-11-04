@@ -16,4 +16,4 @@ FILEPATH=$2
 
 cat $FILEPATH |
     jq -c '.[] | {"update": {"_index": "'$INDEX'", "_id": .id}}, { "doc": ., "doc_as_upsert": true }' |
-    curl -i https://localhost:9200/_bulk -X POST -ku "admin:$OPENSEARCH_ADMIN_PASSWORD" -H 'Content-Type: application/json' --data-binary @- > /dev/null
+    curl -i https://localhost:9200/_bulk -X POST -ku "admin:$OPENSEARCH_ADMIN_PASSWORD" -H 'Content-Type: application/json' --data-binary @-
