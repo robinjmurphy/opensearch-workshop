@@ -2,7 +2,7 @@
 
 If you're short on time feel free to skip this exercise and go straight into the transaction search challenge. [Aggregations](https://opensearch.org/docs/latest/aggregations/) are an interesting feature of OpenSearch that allow you to extract aggregate statistics from your data, but they aren't technically required when implementing core search functionality.
 
-A common feature of faceted search applications is showing how many results share a particular field value. For example, when searching for a washing machine on an e-commerce site you might expect to see a breakdown by brand or size in the sidebar that allows for further filtering (e.g. AEG 5, Bosch 2).
+A common feature of faceted search applications is showing how many results share a particular field value. For example, when searching for a washing machine on an e-commerce site you might expect to see a breakdown by brand or size in the sidebar that allows for further filtering (e.g. AEG (5), Bosch (2)).
 
 OpenSearch supports this kind of functionality with [aggregations](https://opensearch.org/docs/latest/aggregations/).
 
