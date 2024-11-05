@@ -26,6 +26,7 @@ Using the OpenSearch query API, see if you can find results for the following qu
 4. Find any TV shows or movies where Jason Bateman stars alongside Vince Vaughn
 5. Find comedies about dating released in 2018
 6. Find TV shows or movies starring or directed by George Clooney
+7. Find some popular Netflix titles but allow for typos (e.g. `Breeking Bad`, `Arrested Dvelopment`)
 
 ### Hints 
 * You'll find that there's sometimes more than one way to construct an OpenSearch query that may impact the relevance of your results, so this exercise is as much about exploring the query API as it is finding a particular "right" answer!
