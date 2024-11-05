@@ -11,13 +11,14 @@ It's up to you how to index the data, but you should be able to handle the follo
 * Filtering for transactions above or below a given `amount`
 * Filtering for transactions associated with a particular `account_id`
 * Returning results in a "search as you type"/autocomplete style (i.e. `Tes` should return matching transactions at Tesco)
+* Fuzzy matching
 * Sorting by transaction date (i.e. most recent first)
 * (Bonus) aggregating transaction counts and total/average spend amount on a per-category/per-account basis
 
 You might want to think about how your search index performs when:
 
 * Two transactions share the same title (which one should appear first?)
-* One transactions matches in the `title` field and one matches in the `subtitle` field (which should be considered more relevant?)
+* One transaction matches the `title` field and one matches the `subtitle` field (which should be considered more relevant?)
 
 The data you need for this exercise can be found in `data/transactions.json`.
 
