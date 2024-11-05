@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "tx_650520f3-45af-44fe-b430-a938bd41e560",
+    "timestamp": "2024-11-05T22:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 693,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_58cb3775-9126-4e81-a91a-dbf094ee81b0",
+    "timestamp": "2024-11-03T23:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 298,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_77888dd5-1811-4df9-b753-107694db45b7",
+    "timestamp": "2024-11-03T11:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 6836,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_3c05bec0-9088-4f39-8491-798cfca9927c",
+    "timestamp": "2024-11-02T11:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 3793,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_eb09a421-a35e-4b08-8663-5a19ba46bcb1",
+    "timestamp": "2024-11-01T04:00:00Z",
+    "title": "PayPal",
+    "subtitle": "F029479",
+    "category": "bills",
+    "amount": 1158,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_57300ec2-9fbc-41c2-9e19-59ddbd6c6144",
+    "timestamp": "2024-10-30T13:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 785,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_5c3b5d29-9b16-442f-9512-327afcaaf5af",
+    "timestamp": "2024-10-30T15:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1288,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_33807d76-a987-4a7e-9ad2-e693a8cc20f3",
+    "timestamp": "2024-10-30T21:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 4801,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_2bbe906d-9c72-488f-8801-48f58efed462",
+    "timestamp": "2024-10-29T17:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 1239,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_265f41df-a1a5-4c26-a868-3d4c8799b681",
+    "timestamp": "2024-10-29T23:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 4456,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_fa57da4d-81ca-4d17-8dd8-1cd02ed1773e",
+    "timestamp": "2024-10-29T14:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 4271,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_e90791ed-f84f-42b2-8384-ee690f2dc0b2",
+    "timestamp": "2024-10-29T09:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 21961,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_539be63b-5921-41f3-9810-1d9354e664be",
+    "timestamp": "2024-10-29T01:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1009,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_06bb816a-2e81-4d0d-a39a-3ef449fae5e2",
+    "timestamp": "2024-10-28T21:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1153,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_c9eb1349-ff1c-47e2-bc4f-6f8ee8babbb4",
+    "timestamp": "2024-10-28T08:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1090,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_a5611dff-30eb-4274-8fcc-0b207c925112",
+    "timestamp": "2024-10-27T23:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 418,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_e0773cdd-8351-4845-999e-c873a380ed27",
+    "timestamp": "2024-10-27T12:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 930,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_70d1235f-dd3d-4ffa-a089-6bbcfa597bf8",
+    "timestamp": "2024-10-27T18:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 1802,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_7401081e-8b69-4029-881c-a5fe0ed8f44c",
+    "timestamp": "2024-10-26T11:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 5398,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_7de1ffd0-bcb3-46ca-bbf1-27e347ac6631",
+    "timestamp": "2024-10-26T14:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 10840,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_652ae3d2-14f0-45f1-b3ed-87a7c2fffa28",
+    "timestamp": "2024-10-26T01:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 1461,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_807cccbc-8e0d-4321-a6af-b52b755f5a51",
+    "timestamp": "2024-10-26T00:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 2862,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_6d7394a8-6972-49fe-8166-1076d8d5a36f",
+    "timestamp": "2024-10-25T09:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 4459,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_381a0547-96e3-4e1b-bd15-7e37fdd1190e",
+    "timestamp": "2024-10-25T01:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 219,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_85ecccb8-08be-409f-a80c-9722f6862466",
+    "timestamp": "2024-10-24T10:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 53,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_58485043-d0fb-4bc4-811e-6fcb69347c4e",
+    "timestamp": "2024-10-24T00:00:00Z",
+    "title": "Sainsbury's",
+    "category": "groceries",
+    "amount": 14125,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_cb007e0b-fbcd-4683-a4f1-9e0a01a3c607",
+    "timestamp": "2024-10-24T05:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "McDonalds 🍔",
+    "category": "eating_out",
+    "amount": 1033,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_1c62bb66-3737-4380-9e89-4cae636ebdda",
+    "timestamp": "2024-10-24T21:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 4231,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_dec0b7ab-cfce-4b24-9283-6535812782c8",
+    "timestamp": "2024-10-24T08:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 6493,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_15274f00-1447-4544-a0e5-6cfdddef2302",
+    "timestamp": "2024-10-22T17:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 8107,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_34bf2d98-cb25-4b73-8be6-199b54744a1d",
+    "timestamp": "2024-10-22T17:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 633,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_2999179d-ad78-43db-aa79-332547c66be7",
+    "timestamp": "2024-10-21T05:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 617,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_fa015fb9-75cf-41f3-bd4d-0bd20a15c36b",
+    "timestamp": "2024-10-21T16:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 343,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_1edf44c2-9834-4aa5-ad4e-71e4dae0396d",
+    "timestamp": "2024-10-21T02:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 10979,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_3fe3bab8-9e93-4edd-8ddf-c990f10ddf01",
+    "timestamp": "2024-10-21T08:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 8224,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_95d99847-10ed-481f-b990-495dd450cdbc",
+    "timestamp": "2024-10-21T18:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 14972,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_eb94b77a-4e83-4462-9563-d56987d2edb2",
+    "timestamp": "2024-10-20T23:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 340,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_facaadd9-f3b1-40f0-8f80-a6543356cd5e",
+    "timestamp": "2024-10-20T20:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 10291,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_76a31ccc-2211-4ad3-8e96-cc7cdb7ae203",
+    "timestamp": "2024-10-20T11:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 16444,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_c2b21319-7013-410c-8990-7f736300b306",
+    "timestamp": "2024-10-20T10:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 1697,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_11b52916-1827-41d2-9e1a-6ac2605783ad",
+    "timestamp": "2024-10-17T04:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 364,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0ed61ffe-7d62-432d-a538-a834e2d39d3f",
+    "timestamp": "2024-10-17T09:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 187102,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_89965da1-e887-4176-8394-2439604a507c",
+    "timestamp": "2024-10-17T22:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 120546,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_f5bb1c5d-159c-48ed-b93e-309c854a6741",
+    "timestamp": "2024-10-15T12:00:00Z",
+    "title": "PayPal",
+    "subtitle": "F029479",
+    "category": "bills",
+    "amount": 1045,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_2f993327-b4a7-4acb-bfd6-edd51c0341af",
+    "timestamp": "2024-10-15T21:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 1064,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_a15077e2-41a3-4d9a-a56b-3b7c556c3eac",
+    "timestamp": "2024-10-15T16:00:00Z",
+    "title": "Sainsbury's",
+    "category": "groceries",
+    "amount": 2033,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_86a41feb-33c3-45bd-b2fd-4d12dabd3a3a",
+    "timestamp": "2024-10-15T01:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 12577,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_48e8918a-ed9c-4d77-97ce-bb61e5c733ca",
+    "timestamp": "2024-10-14T11:00:00Z",
+    "title": "PayPal",
+    "category": "bills",
+    "amount": 1221,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_b5ec8d26-e6cd-485f-8a7a-9bbf8647c8fc",
+    "timestamp": "2024-10-14T16:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 19,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0b429f90-9f26-45a1-8cf5-7f1f5cadf41a",
+    "timestamp": "2024-10-14T23:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 547,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_d6df3670-6dc5-41fc-b50c-2621ed54029a",
+    "timestamp": "2024-10-14T06:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 14762,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_beb5eaa8-db77-403b-96e3-81bc3d50d8b4",
+    "timestamp": "2024-10-13T09:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 25,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_89df6522-8342-4dc6-a615-e2c992cb2352",
+    "timestamp": "2024-10-13T03:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 296,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d54857f5-15f6-4128-b975-816fc443765f",
+    "timestamp": "2024-10-13T04:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1032,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_dfe602bd-806e-4cac-be42-5d2f4be4807b",
+    "timestamp": "2024-10-12T05:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 283,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_9135ae5c-2f78-423c-ba70-8fab66776b2d",
+    "timestamp": "2024-10-12T03:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 8994,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_07a08396-bc8a-4d59-8b34-9094fccfd5d6",
+    "timestamp": "2024-10-12T06:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 12055,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_a411c66c-166d-4c66-b676-7b2d629709e1",
+    "timestamp": "2024-10-12T07:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 396,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_b6c19407-49ed-4193-b10a-dae3284c0c51",
+    "timestamp": "2024-10-11T23:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1220,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_28ede3c0-9e72-4d0f-a6cd-a743800cd637",
+    "timestamp": "2024-10-10T06:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 114,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_9490b0ec-e3c0-422b-9bca-617dbacae9d3",
+    "timestamp": "2024-10-10T17:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 449,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_14883b5d-b2c5-4e32-a101-242ad2b5f249",
+    "timestamp": "2024-10-09T09:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 424,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_2961f314-338f-4b37-8733-2d569bf4d2c4",
+    "timestamp": "2024-10-09T05:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 897,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_841886c3-a7d5-42c0-bfed-c840a0c8f057",
+    "timestamp": "2024-10-08T17:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 9609,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_69cdeb35-bc67-439e-ad97-4f27aa1f211c",
+    "timestamp": "2024-10-08T04:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1318,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_b0093c3e-297b-46cd-be67-52c254033b03",
+    "timestamp": "2024-10-08T19:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1140,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_e76fd2a2-8df4-401f-8cb9-82f2b2e34ecc",
+    "timestamp": "2024-10-06T06:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 536,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d13ff706-8027-49d2-a68e-aef29c1cdb3b",
+    "timestamp": "2024-10-05T09:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 344,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_ff69f15e-7ff2-487a-893c-d71961eb6af8",
+    "timestamp": "2024-10-05T19:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 881,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_cfe015ec-97ab-401e-828d-605f809acebf",
+    "timestamp": "2024-10-05T18:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 11793,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d49ab76e-0c91-468c-823c-4f4e15ded781",
+    "timestamp": "2024-10-05T04:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 21969,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d52d53f3-2318-43cf-8ae9-db64d4ed44eb",
+    "timestamp": "2024-10-03T15:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1130,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_97c0da91-cfbc-4c99-9d15-461a9cf25bf3",
+    "timestamp": "2024-10-03T18:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 402,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d49b32b4-b456-413e-907f-363164e7ff71",
+    "timestamp": "2024-10-03T21:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 3819,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_cd8662c7-5708-4ba0-b54c-0d140d11582f",
+    "timestamp": "2024-10-03T00:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 5761,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_98f27f60-8416-412f-939b-37668db8946c",
+    "timestamp": "2024-10-01T12:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 4789,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_ebae8d3c-93a0-45e0-be0c-c4f721184d7c",
+    "timestamp": "2024-10-01T00:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 111,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_3636e581-4179-4d0d-8cb0-27a76ef0c563",
+    "timestamp": "2024-09-30T16:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 9511,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d2e553cc-17b6-4f7d-bd33-5f596a511c37",
+    "timestamp": "2024-09-30T12:00:00Z",
+    "title": "PayPal",
+    "subtitle": "Netflix",
+    "category": "bills",
+    "amount": 1001,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_6f54d93b-6634-4ae4-ac85-6592463825e9",
+    "timestamp": "2024-09-30T13:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 6666,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_8bcf8e48-273a-448f-b31c-30545866221e",
+    "timestamp": "2024-09-29T19:00:00Z",
+    "title": "Uber",
+    "category": "transport",
+    "amount": 1204,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_c732901a-d590-41b9-a047-cf47c953b30f",
+    "timestamp": "2024-09-29T13:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 895,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_c07b00dd-95d9-4925-888f-0f6368e8d9be",
+    "timestamp": "2024-09-29T17:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 7173,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_cbc37411-9170-41eb-a2de-afc92a2c9017",
+    "timestamp": "2024-09-28T02:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 153655,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_61162bd9-2c03-4b03-be15-2e100beb7050",
+    "timestamp": "2024-09-27T16:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 11995,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_698178f2-8e5b-4439-8b13-76b3663d97a4",
+    "timestamp": "2024-09-25T05:00:00Z",
+    "title": "Sainsbury's",
+    "category": "groceries",
+    "amount": 3306,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d6891c3c-8136-43aa-932e-20e64fe5d286",
+    "timestamp": "2024-09-25T01:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 188361,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_038a684d-ce34-430f-a0c0-4a9732e4551d",
+    "timestamp": "2024-09-25T03:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 6453,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_ce879ea5-d468-405a-adc2-7ccacacc160b",
+    "timestamp": "2024-09-25T04:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 10088,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_80e52360-1151-4f05-b700-2d96d14f2406",
+    "timestamp": "2024-09-25T11:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 4517,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_abe9bdf9-ead3-4c06-9dbc-c13e9e25732d",
+    "timestamp": "2024-09-24T20:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 319,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_9ae4b3d9-c78d-4159-aa53-16088d61b91b",
+    "timestamp": "2024-09-24T12:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 7668,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_1aa85586-c86e-425a-bdab-ee3ac23dca91",
+    "timestamp": "2024-09-24T06:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 11443,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_13c4519a-9698-46d9-ac3c-0f57c95da894",
+    "timestamp": "2024-09-23T10:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1254,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_e5f798b1-5a40-4396-8a9c-5199cce22c3e",
+    "timestamp": "2024-09-23T22:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 1047,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_dd0f3f73-ed66-4c56-bf0b-a78965a78d79",
+    "timestamp": "2024-09-23T17:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 4631,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_d959b8a5-86ca-41c8-9985-23db841502f5",
+    "timestamp": "2024-09-22T21:00:00Z",
+    "title": "George Bluth",
+    "subtitle": "Netflix account",
+    "category": "general",
+    "amount": 415,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_4efe5f8b-1c00-4fd0-8496-2b3c8d34a063",
+    "timestamp": "2024-09-22T04:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 9774,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_661d6ba7-abbf-4630-b446-4904dba80c36",
+    "timestamp": "2024-09-19T15:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 11461,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_eccf0a9e-4d7a-48f2-8bde-75b2209608fb",
+    "timestamp": "2024-09-19T05:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 108,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_99c1a8d9-74a7-4767-83b2-4f4d8cf64e22",
+    "timestamp": "2024-09-19T08:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 197,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_afbad92d-31b5-4463-86ea-c9d07b8e673f",
+    "timestamp": "2024-09-18T18:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 537,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_a1a852f9-2537-483e-90a7-6a4be2876838",
+    "timestamp": "2024-09-18T11:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 476,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_46fec6f1-f9da-451d-9d37-dd95aa37c27c",
+    "timestamp": "2024-09-18T08:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 942,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_ff6cfaa3-b987-46e3-852e-3a01ecfd803b",
+    "timestamp": "2024-09-18T02:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 258,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_94c494d4-7084-4b57-90a7-bbd99a20ddfb",
+    "timestamp": "2024-09-17T12:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "McDonalds 🍔",
+    "category": "eating_out",
+    "amount": 1406,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_2bee4d7e-aff2-4229-8846-aabc683e8182",
+    "timestamp": "2024-09-17T23:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 9113,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_2056684e-3f85-4d2e-b5cc-e532c3dac8b0",
+    "timestamp": "2024-09-17T00:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 9093,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_488c6c9f-70fe-4259-bc38-f1ada9aa8fbc",
+    "timestamp": "2024-09-16T10:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 7765,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_6208f096-1389-41d8-9d4e-2a63609972dc",
+    "timestamp": "2024-09-16T23:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 661,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_34a545b8-4933-4901-99f2-d7592dfc0187",
+    "timestamp": "2024-09-16T09:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 39,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d5999a4e-812f-429a-8ff9-3fd30e9e66f7",
+    "timestamp": "2024-09-16T01:00:00Z",
+    "title": "PayPal",
+    "subtitle": "S1-2358",
+    "category": "bills",
+    "amount": 1044,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_ec7d3595-8bc1-4853-a2a5-cea661557a3a",
+    "timestamp": "2024-09-15T05:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 298,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_2add8d34-abde-44d0-a7fe-e82c19ea0107",
+    "timestamp": "2024-09-14T12:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "McDonalds 🍔",
+    "category": "eating_out",
+    "amount": 1843,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_911a6b88-fa9c-4587-b11f-fda7ebcc68d6",
+    "timestamp": "2024-09-13T21:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 10109,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_c28494e8-14e6-45be-a96f-3e1faa45ef68",
+    "timestamp": "2024-09-12T09:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 7643,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_6bc13a16-9c75-47d2-ba1d-4e3422c2a61c",
+    "timestamp": "2024-09-12T08:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1253,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_6ea71a5b-4863-4460-bf21-c51a9a5bb08d",
+    "timestamp": "2024-09-12T18:00:00Z",
+    "title": "Deliveroo",
+    "category": "eating_out",
+    "amount": 967,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_4376ecf2-9e3e-41c3-bc09-9ecf59d6f206",
+    "timestamp": "2024-09-11T02:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 753,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_f7d32626-607b-4ece-970f-bbe576ae4150",
+    "timestamp": "2024-09-11T16:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1368,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_4339612b-4daa-4c57-b548-2e20aa1ad399",
+    "timestamp": "2024-09-11T11:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 180,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_4ad1fcc2-5d43-4027-bb12-1ac416aa70bb",
+    "timestamp": "2024-09-11T19:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 9416,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_1a602156-57a7-4cc1-88ea-96fd93b434c5",
+    "timestamp": "2024-09-11T15:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 496,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_e2150a55-691e-4a22-888e-3540e8642d7b",
+    "timestamp": "2024-09-09T04:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "Thanks for lunch 🙏🏻",
+    "category": "eating_out",
+    "amount": 2091,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_42b3112a-1d82-4e9f-a4ce-07b6f645af01",
+    "timestamp": "2024-09-09T07:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 11353,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_be316898-7eb0-47e9-9a0c-93296b0a6e67",
+    "timestamp": "2024-09-09T05:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 9629,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_83b183ea-ee6a-46c3-a7e4-b46ef65f6a83",
+    "timestamp": "2024-09-09T18:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1280,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_8dd642ad-5c59-4918-bd31-1c75148042fd",
+    "timestamp": "2024-09-09T16:00:00Z",
+    "title": "George Bluth",
+    "subtitle": "Netflix account",
+    "category": "general",
+    "amount": 667,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_084da7f8-0b3a-4bb2-b5a4-cc3dec4954e6",
+    "timestamp": "2024-09-08T03:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 664,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_c693d1b7-410f-41e1-9925-ba046496b568",
+    "timestamp": "2024-09-07T14:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 482,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_0aa9ab03-a193-493d-b06b-e52c32218b6c",
+    "timestamp": "2024-09-07T22:00:00Z",
+    "title": "George Bluth",
+    "subtitle": "Netflix account",
+    "category": "general",
+    "amount": 522,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d5eb3fde-a7ca-4351-837b-ac057cb4c22a",
+    "timestamp": "2024-09-07T16:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 146,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_0f153e6a-da31-47d3-95bd-6b5303b3a319",
+    "timestamp": "2024-09-06T21:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 108601,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_ef4d0217-14fc-4b6b-8385-79a6ee0aca38",
+    "timestamp": "2024-09-06T11:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 8868,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_1a837b4f-7705-4f5d-989b-c72ce81e050c",
+    "timestamp": "2024-09-06T15:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 11089,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_6cb5aa8b-56c2-4457-b904-4b830786d4e9",
+    "timestamp": "2024-09-06T08:00:00Z",
+    "title": "Monzo",
+    "category": "income",
+    "amount": 152856,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_b8e4d2ba-9b9d-4b57-8981-82192f530280",
+    "timestamp": "2024-09-05T16:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 44,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_10ff4bef-3807-47c6-a542-435e6ed44120",
+    "timestamp": "2024-09-04T23:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 4280,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_8bfc9106-9974-465a-89cb-e98e3271f0d9",
+    "timestamp": "2024-09-04T02:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 224,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_42931fa1-515b-4b76-927c-0e0c2dda26c8",
+    "timestamp": "2024-09-03T18:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1049,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_75331a8f-71ff-41be-ae52-f1a177be0bf4",
+    "timestamp": "2024-09-03T20:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 175,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_b1784f90-3a9c-4090-baa4-696629036a84",
+    "timestamp": "2024-09-02T23:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 891,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_bc3d2f78-e790-433c-ad90-ec7284c1d573",
+    "timestamp": "2024-09-02T19:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 14772,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d732e0f4-4aa6-4b69-a3f5-038ccb564aae",
+    "timestamp": "2024-09-01T08:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 263,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_43a848e2-23be-4c1f-aaf9-2ca4c590fd7e",
+    "timestamp": "2024-09-01T12:00:00Z",
+    "title": "PayPal",
+    "subtitle": "S1-2358",
+    "category": "bills",
+    "amount": 1079,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_5e2f4557-01a4-4ba6-9b17-2864801121b7",
+    "timestamp": "2024-09-01T02:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 411,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0879ee56-c230-4c08-a1bb-e7ba880c0137",
+    "timestamp": "2024-09-01T17:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 2419,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_a1c8cd8c-ffed-44f4-9b6c-aa52b93bb5f5",
+    "timestamp": "2024-08-31T17:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 222,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_4666a0bc-a7e2-4b15-a5d8-d0ce93c207f8",
+    "timestamp": "2024-08-31T08:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 137,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_87ee67ed-a8ef-4cfe-9095-ad130cdce191",
+    "timestamp": "2024-08-30T22:00:00Z",
+    "title": "Uber",
+    "category": "transport",
+    "amount": 1673,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_a3f2bdc6-7ac0-4172-95a6-0ec63b2e239a",
+    "timestamp": "2024-08-30T12:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 6397,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_f7434829-c358-4a26-911d-be0eef04ca95",
+    "timestamp": "2024-08-30T18:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 824,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_25cafc57-4105-411e-9f61-0d7a8877a374",
+    "timestamp": "2024-08-29T18:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 3968,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_cffea32e-2269-4afb-b49c-7d142cc0bb1b",
+    "timestamp": "2024-08-29T07:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 747,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_974f6775-8a56-4652-a1e0-68edc65ca961",
+    "timestamp": "2024-08-29T03:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "Thanks for lunch 🙏🏻",
+    "category": "eating_out",
+    "amount": 1489,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_58c08bfd-83b5-41ed-8c69-45ed514c617b",
+    "timestamp": "2024-08-29T01:00:00Z",
+    "title": "Uber",
+    "category": "transport",
+    "amount": 1419,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_3cf2042b-f918-41d8-b916-adc861e5ef53",
+    "timestamp": "2024-08-28T03:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "McDonalds 🍔",
+    "category": "eating_out",
+    "amount": 2094,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_2714e173-558f-423b-a667-c4ce21069613",
+    "timestamp": "2024-08-28T04:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 4531,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_bdbaae73-110c-4c79-9780-b318f2cdef41",
+    "timestamp": "2024-08-27T02:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 63,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_5aed76a4-60d3-4bb1-a29b-6d53d5b4f6e2",
+    "timestamp": "2024-08-27T09:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 6402,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_112e2fb8-f2e7-4113-8d7a-6e91fdf8f1c7",
+    "timestamp": "2024-08-27T13:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1074,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_fb2a7676-b8c8-4a96-939c-321fbb4984d2",
+    "timestamp": "2024-08-27T23:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Dinner 🍽️",
+    "category": "groceries",
+    "amount": 11273,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_b4d90352-54e3-484d-9bd6-0b51b62872ea",
+    "timestamp": "2024-08-27T21:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 327,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_69947fe3-f995-4a34-b482-5cb16a7137c3",
+    "timestamp": "2024-08-26T12:00:00Z",
+    "title": "Black Sheep Coffee",
+    "category": "eating_out",
+    "amount": 587,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_b66cdcd6-2210-43ab-9c3c-627036561ed0",
+    "timestamp": "2024-08-26T22:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 463,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_597ae9f2-b5d1-417c-b3fe-c9f04dff912a",
+    "timestamp": "2024-08-26T07:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 612,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_ff8ad2e5-3305-4173-8c35-9bbdf667dfa0",
+    "timestamp": "2024-08-25T00:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 5636,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_759f0df7-65c5-4feb-aabb-860a314a4d44",
+    "timestamp": "2024-08-25T23:00:00Z",
+    "title": "PayPal",
+    "subtitle": "S1-2358",
+    "category": "bills",
+    "amount": 1148,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_17219d0c-9394-4820-a6fc-e86e8b1bcbb8",
+    "timestamp": "2024-08-23T02:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 4066,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_1f04ae4d-5108-4034-8b66-efd433b696d8",
+    "timestamp": "2024-08-22T19:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 477,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0d8f1f31-dfd9-482b-9199-0cf6a2375b67",
+    "timestamp": "2024-08-22T10:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 1012,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_24f44b8b-0508-4259-aae4-75d0d04a4396",
+    "timestamp": "2024-08-22T18:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 6738,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_085594da-3a99-43d9-9a8c-c96acf0283a5",
+    "timestamp": "2024-08-22T07:00:00Z",
+    "title": "Sainsbury's",
+    "subtitle": "Shopping",
+    "category": "groceries",
+    "amount": 5229,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_9f97f75b-867d-4b59-a1a2-4598b6ca396c",
+    "timestamp": "2024-08-22T22:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 8733,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_c78ec59b-9ce0-4556-9bee-6a161d6c1252",
+    "timestamp": "2024-08-21T07:00:00Z",
+    "title": "PayPal",
+    "category": "bills",
+    "amount": 1021,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_139b9ce5-66b0-46fa-b24c-b00eb371a494",
+    "timestamp": "2024-08-21T06:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1296,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_e16f717e-fcd4-48c1-814c-cc7520339afa",
+    "timestamp": "2024-08-21T04:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 2658,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_ef418ffc-f322-4f5f-8279-2e505f163388",
+    "timestamp": "2024-08-21T22:00:00Z",
+    "title": "Netflix",
+    "category": "bills",
+    "amount": 1045,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_1980c21f-c4c6-4ef6-a014-8946e50a2d82",
+    "timestamp": "2024-08-20T01:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 2713,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_9392d825-e46c-40e5-ae59-4f9f31869a5c",
+    "timestamp": "2024-08-20T09:00:00Z",
+    "title": "Philomena Cunk",
+    "subtitle": "Money for books",
+    "category": "general",
+    "amount": 5615,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_4ec67fae-e718-4d39-9ca7-db0d27672477",
+    "timestamp": "2024-08-18T17:00:00Z",
+    "title": "Homer Simpson",
+    "subtitle": "Donuts",
+    "category": "eating_out",
+    "amount": 316,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_4cf91007-3ffd-4241-9251-db61805c013d",
+    "timestamp": "2024-08-18T20:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 14213,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0aeadfc7-c45d-446f-80e2-2c3f8bdbfad1",
+    "timestamp": "2024-08-18T04:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 12222,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_f87faa1a-e043-4d09-984d-b54ffc6759ac",
+    "timestamp": "2024-08-16T07:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 253,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_e861d856-aec0-4b4b-8d09-c116a8f0eba6",
+    "timestamp": "2024-08-16T02:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 9412,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_fed3ceac-5146-4d15-93cf-539d995fb09a",
+    "timestamp": "2024-08-15T08:00:00Z",
+    "title": "PayPal",
+    "category": "bills",
+    "amount": 1160,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_fe744264-e8a4-4e13-b8cc-ca4747a6cc87",
+    "timestamp": "2024-08-15T02:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 275,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_d26cf976-c966-4659-8b07-bef6b92e1f78",
+    "timestamp": "2024-08-15T02:00:00Z",
+    "title": "TfL",
+    "category": "travel",
+    "amount": 887,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_d8147aed-7699-4559-83bc-20a17fb0051c",
+    "timestamp": "2024-08-15T21:00:00Z",
+    "title": "Tesco",
+    "category": "groceries",
+    "amount": 1731,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_f034d62c-7c31-491f-96c4-674201319ec5",
+    "timestamp": "2024-08-14T12:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 242,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_c0e16cf5-2105-4827-a88d-e6bcb0bdd9e7",
+    "timestamp": "2024-08-14T17:00:00Z",
+    "title": "Apple",
+    "category": "shopping",
+    "amount": 265,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_11c54a89-715a-4e2e-bf95-715ef221a0f1",
+    "timestamp": "2024-08-14T18:00:00Z",
+    "title": "Humble Crumble",
+    "category": "eating_out",
+    "amount": 498,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_0b2a0658-4294-4117-a39c-77c68ec0d5ba",
+    "timestamp": "2024-08-14T17:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 8092,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_e34b2b66-eb88-43c1-8e43-a8d216430a8f",
+    "timestamp": "2024-08-13T03:00:00Z",
+    "title": "Deliveroo",
+    "subtitle": "McDonalds 🍔",
+    "category": "eating_out",
+    "amount": 1523,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_46d0b5af-a718-466f-8e33-4b6811bab88a",
+    "timestamp": "2024-08-10T20:00:00Z",
+    "title": "AirBnb",
+    "category": "holidays",
+    "amount": 24314,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_3100ded6-5077-484c-97b8-0aaac0586432",
+    "timestamp": "2024-08-10T17:00:00Z",
+    "title": "Spotify",
+    "category": "bills",
+    "amount": 1380,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  },
+  {
+    "id": "tx_7a6bd550-944f-4ac8-bece-3c1e2d24166a",
+    "timestamp": "2024-08-10T09:00:00Z",
+    "title": "Sainsbury's",
+    "category": "groceries",
+    "amount": 3653,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_a5cbc041-d82e-41b3-95f3-972e29e58de9",
+    "timestamp": "2024-08-08T22:00:00Z",
+    "title": "PayPal",
+    "category": "bills",
+    "amount": 1042,
+    "currency": "GBP",
+    "account_id": "acc_641546bb-3a54-44c6-b2fe-46362e151d8c"
+  },
+  {
+    "id": "tx_aebd4afc-51ff-45d1-af44-1b71dfc729ac",
+    "timestamp": "2024-08-08T06:00:00Z",
+    "title": "Amazon",
+    "category": "shopping",
+    "amount": 7063,
+    "currency": "GBP",
+    "account_id": "acc_028d957f-f6d3-46d7-9aa0-397c130307c5"
+  }
+]

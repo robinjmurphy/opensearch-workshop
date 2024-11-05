@@ -1,17 +1,32 @@
 # 6. Transactions
 
-Now that we've seen some of the main features of OpenSearch, it's time to put them all together into a useful search application.
+Now that you're familiar with the main features of OpenSearch, it's time to put them together into a useful search application.
 
-You're going to build a transaction search application that lets you query for things you've paid for.
+We're going to build a simple transaction search using some dummy data from the last 90 days.
 
 It's up to you how to index the data, but you should be able to handle the following queries:
 
-*
+* Searching for all transactions from a single merchant (e.g. `Uber`)
+* Searching for transactions based on a note or reference in the `subtitle` field
+* Filtering for transactions above or below a given `amount`
+* Filtering for transactions associated with a particular `account_id`
+* Returning results in a "search as you type"/autocomplete style (`Tes` should return matching transactions at Tesco)
+* Sorting by transaction date (i.e. most recent first)
+* (Bonus) aggregating transaction counts/total spend on a per-category/per-account basis
 
-You might want to think about how your index performs in these cases:
+You might want to think about how your search index performs when:
 
-* e.g. title/vs subtitle
-* sorting when two transactions match
-* stopwords and synonyms
-* partial matching
-* filtering on accounts
+* Two transactions share the same title/subtitle (which one should appear first?)
+* Transactions with a matching `title` or `subtitle` field (which should be considered more relevant?)
+
+The data you need for this exercise can be found in `data/transactions.json`.
+
+You can use the `bin/upsert.sh` tool to ingest the data into an index:
+
+```
+./bin/upsert.sh <index-name> data/transactions.json
+```
+
+Remember to save your final DevTools input and any index mappings/settings. 
+
+The data in `data/transactions.json` is generated using the script in [`bin/transactions/main.go`](../bin/transactions/main.go). Feel free to tweak it if you find yourself limited by the test data!
