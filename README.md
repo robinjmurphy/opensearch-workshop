@@ -67,7 +67,7 @@ And check you can access the Dashboards web UI at http://localhost:5601/.
 
 The username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`, which is configured in the `docker-compose.yml` file.
 
-## Exercies
+## Exercises
 
 1. [Introduction](exercises/1-intro.md)
 2. [Mappings](exercises/2-mappings.md)
@@ -82,7 +82,7 @@ The username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`, which is conf
 - Dashboards, login
 - Devtools (cat, indexes)
 - Mappings - strict vs dynamic
-- Little bit of each exercise
+- Litle bit of each exercise
 
 ## Notes
 
