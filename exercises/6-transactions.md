@@ -12,7 +12,7 @@ It's up to you how to index the data, but you should be able to handle the follo
 * Filtering for transactions associated with a particular `account_id`
 * Returning results in a "search as you type"/autocomplete style (i.e. `Tes` should return matching transactions at Tesco)
 * Sorting by transaction date (i.e. most recent first)
-* (Bonus) aggregating transaction counts and total spend amount on a per-category/per-account basis
+* (Bonus) aggregating transaction counts and total/average spend amount on a per-category/per-account basis
 
 You might want to think about how your search index performs when:
 
