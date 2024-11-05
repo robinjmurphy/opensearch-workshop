@@ -14,3 +14,4 @@ You might want to think about how your index performs in these cases:
 * sorting when two transactions match
 * stopwords and synonyms
 * partial matching
+* filtering on accounts

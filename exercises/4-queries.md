@@ -16,3 +16,4 @@ https://opensearch.org/docs/latest/search-plugins/searching-data/sort/
 * Find TV shows with Jason Bateman and `Tony Hale`
 * matching on description
 * Rating? (term query)
+* Find anything featuring or directed by aziz ansari - boost starring in

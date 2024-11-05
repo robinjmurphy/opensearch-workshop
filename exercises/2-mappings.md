@@ -57,3 +57,5 @@ Notice how only an exact match works on the `title.keyword` field here. Even `Qu
 
 0. Switch from dynamic to explicit mappings (maybe with a reindex?)
 1. Update some mappings to `keyword` (TV show/Movie/ID/Rating)
+
+Aliases?
