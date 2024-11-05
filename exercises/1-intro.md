@@ -118,7 +118,7 @@ GET netflix/_search
 
 You should see two results `Queer Eye` and `Queer Eye - We're in Japan!` are returned.
 
-Interstingly, if we amend the search term and match on `Queer eye` you'll see that even more results are returned (which may be a surprise!):
+Interestingly, if we amend the search term and match on `Queer eye` you'll see that even more results are returned (which may be a surprise!):
 
 ```
 GET netflix/_search
