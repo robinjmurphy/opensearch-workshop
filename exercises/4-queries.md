@@ -21,7 +21,7 @@ This query will return all results where there's a match for `Aziz Ansari` in ei
 Using the OpenSearch query API, see if you can find results for the following queries:
 
 1. Find TV shows (not movies) with Aziz Ansari as a cast member
-2. Find any movies about dinosaurs (ones with the word "dinosaur" in the title should rank higher)
+2. Find any movies about dinosaurs (anything with the word "dinosaur" in the title should rank higher)
 3. Find some suggestions for true crime stories to watch
 4. Find any TV shows or movies where Jason Bateman stars alongside Vince Vaughn
 5. Find comedies about dating released in 2018
