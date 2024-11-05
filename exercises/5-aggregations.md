@@ -23,7 +23,7 @@ GET netflix-latest/_search
 }
 ```
 
-This query returns the top 10 unique `terms` in the `ratings` field by document count.
+This query returns the top 10 unique `terms` in the `ratings` field by document count. Crucially, aggregations operate on the entire dataset, and not just the results on the current page. This is why we can specify a page `size` of `0` and still get back accurate aggregations.
 
 Aggregations (aggs) can be combined with a search query to return only the statistics for documents that match a search term:
 
