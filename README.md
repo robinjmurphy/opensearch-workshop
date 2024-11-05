@@ -76,7 +76,7 @@ The username is `admin` and the password is `yRPHP_Fsw6G2KAHCGsm`, which is conf
 5. [Aggregations](exercises/5-aggregations.md)
 6. [Putting it all together](exercises/6-transactions.md)
 
-Ideas for a future exercise: shards, replication and routing. 
+Ideas for a future exercise: shards, replication and routing! 
 
 ## Data sources
 
