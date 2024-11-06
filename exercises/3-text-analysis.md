@@ -75,7 +75,7 @@ POST _analyze
 {
   "text": "Queer Eye",
   "tokenizer": {
-    "type": "ngram",
+    "type": "edge_ngram",
     "min_gram": 2,
     "max_gram": 3,
     "token_chars": [
@@ -125,7 +125,7 @@ PUT netflix-partial-matches
                 "type": "text",
                 "analyzer": "edge_ngram_analyzer"
             }
-        },
+        }
       },
       "type": {
         "type": "keyword"
