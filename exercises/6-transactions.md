@@ -31,3 +31,9 @@ You can use the `bin/upsert.sh` tool to ingest the data into an index:
 Remember to save your final DevTools input and any index mappings/settings. 
 
 The data in `data/transactions.json` is generated using the script in [`bin/transactions/main.go`](../bin/transactions/main.go). Feel free to tweak it if you find yourself limited by the test data!
+
+## Extensions
+
+* Can you highlight any matching text in the results? (https://opensearch.org/docs/latest/search-plugins/searching-data/highlight/)
+* Can you get the transaction data working in OpenSearch Dashboards (like we do with Slog data?) (https://opensearch.org/docs/latest/dashboards/)
+* Feel free to explore any other OpenSearch features that could be useful!
