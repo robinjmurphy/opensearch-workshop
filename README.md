@@ -44,6 +44,11 @@ export OPENSEARCH_ADMIN_PASSWORD="yRPHP_Fsw6G2KAHCGsm"
 
 ```
 curl -k https://localhost:9200/ -u admin:$OPENSEARCH_ADMIN_PASSWORD
+```
+
+You should get back the following response:
+
+```
 {
   "name" : "opensearch-node1",
   "cluster_name" : "opensearch-cluster",
