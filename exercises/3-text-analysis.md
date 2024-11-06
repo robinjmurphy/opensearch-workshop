@@ -4,13 +4,11 @@ When OpenSearch indexes a document it performs some extra processing (called "te
 
 This is designed to provide more relevant results and optimise performance at query time.
 
-Text analysis is highly configurable and OpenSearch provides many different kinds of ["analyzers"](https://opensearch.org/docs/latest/analyzers/supported-analyzers/index/) that can be customised to a suite a particular dataset.
+Text analysis is highly configurable and OpenSearch provides different kinds of ["analyzers"](https://opensearch.org/docs/latest/analyzers/supported-analyzers/index/) that can be customised to a suite a particular dataset.
 
-The "standard" analyzer will parse a string and break it up into separate words (or "tokens" in OpenSearch speak), remove most punctuation and convert tokens (words) to lowercase. This same process happens at query time when you provide a search term or phrase. OpenSearch can then compare the query tokens with the indexed tokens to calculate how relevant a document is.
+The "standard" analyzer will parse a string and break it up into separate words (or "tokens" in OpenSearch speak), remove most punctuation and convert tokens (words) to lowercase. This same process happens at query time when you provide a search term or phrase, which allows OpenSearch to then compare the tokens in the query with the tokens in the index to find relevant documents. This process is described in more detail in the OpenSearch Docs ([Text Analysis](https://opensearch.org/docs/latest/analyzers/)).
 
-This process is described in more detail in the OpenSearch Docs ([Text Analysis](https://opensearch.org/docs/latest/analyzers/)).
-
-You can see how OpenSearch will analyse a given block of text using the analysis API:
+You can see how OpenSearch will process any given block of text using the analysis API:
 
 ```
 POST _analyze
@@ -40,15 +38,17 @@ POST _analyze
 }
 ```
 
-Some analyzers are more "aggresive" with their processing than others. The `stop` analzer, for example, will strip out English stop words like "the" or "an" in an effort to improve results. As an example, use the analysis API to compare the output for `The King's Speech` using the `standard` analyzer vs the `stop` analyzer.
+Some analyzers are more "aggressive" with their processing than others. The `stop` analyzer, for example, will strip out English stop words like "the" or "an" in an effort to improve results. As an example, use the analysis API to compare the output for `The King's Speech` using the `standard` analyzer vs the `stop` analyzer.
 
-Some analysers (like the [language-specific analyzers](https://opensearch.org/docs/latest/analyzers/language-analyzers/)) will even go as far as to carry out "stemming" on a string where individual words are reduced to their "stem" form (.e.g `running` becomes `run`). You can try this out with the analysis API using the `english` analyzer on a string like `Cool Runnings`.
+Some analysers (like the [language-specific analyzers](https://opensearch.org/docs/latest/analyzers/language-analyzers/)) will even go as far as to carry out "stemming" on a string where individual words are reduced to their "stem" form (.e.g `running` becomes `run`).
+
+You can try this out with the analysis API using the `english` analyzer on a string like `Cool Runnings`.
 
 As well as the built-in analyzers, it's also possible to build up your own analyzer by combining individual [tokenizers](https://opensearch.org/docs/latest/analyzers/tokenizers/index/) and [filters](https://opensearch.org/docs/latest/analyzers/token-filters/index/) to suite your dataset.
 
 In the first exercise we learnt that by default OpenSearch doesn't support partial matches on `text` fields. We can now use text analysis with a custom analyzer to overcome this.
 
-One way to solve this problem in OpenSearch is to use an "ngram" analyzer whereby a string is broken down not just into its constituent words, but also the smaller clusters of characters that make up those words.
+One way to solve this problem in OpenSearch is to use an "ngram" analyzer whereby a string is broken down not just into its constituent words, but also into smaller clusters of characters that make up those words.
 
 ```
 POST _analyze
@@ -66,9 +66,9 @@ POST _analyze
 }
 ```
 
-In the example above we're breaking the string `Queer Eye` down into all of its possible 2-3 character substrings. If we were to use this custom analyzer in our index we would now return `Queer Eye` as a match on any query strings containing the letters `Qu`, `ue`, `eer` etc.
+In the example above we're breaking the string `Queer Eye` down into all of its possible 2-3 character substrings. If we were to use this custom analyzer in our index we would now return `Queer Eye` as a match on any query containing the letters `Qu`, `ue`, `eer` etc.
 
-For partial search or autocomplete functionality, a variant of this called an "edge ngram" can be helpful in reducing some of the false positives from the clusters of letters in the middle of the words. With this analyzer, only matching _prefixes_ are considered:
+A variant of this that works well for "search as you type"/autocomplete use cases is an "edge ngram" tokenizer, which can be helpful in reducing false positives from pairs of common letters in the middle of the words. With this analyzer, only matching _prefixes_ are considered (i.e. `Que` but not `er`) :
 
 ```
 POST _analyze
@@ -86,9 +86,9 @@ POST _analyze
 }
 ```
 
-The analysis API can be helpful for understanding and debugging how a field is being indexed, but once we're happy with our analyzer we can update the index mapping to instruct OpenSearch to use it when indexing a field.
+The analysis API can be helpful for debugging how a field is processed and iterating on analyzer settings, but once we're happy with the results we can update the index mapping to instruct OpenSearch to use these settings when indexing a field.
 
-Let's create a new index where the `title` field makes use of the `edge_ngram` analyzer to unlock partial matching:
+Let's create a new index where the `title` field makes use of the `edge_ngram` analyzer to unlock partial matching for "search as you type" behaviour:
 
 ```
 PUT netflix-partial-matches
@@ -120,7 +120,12 @@ PUT netflix-partial-matches
       },
       "title": {
         "type": "text",
-        "analyzer": "edge_ngram_analyzer"
+        "fields": {
+            "ngram": {
+                "type": "text",
+                "analyzer": "edge_ngram_analyzer"
+            }
+        },
       },
       "type": {
         "type": "keyword"
@@ -158,7 +163,7 @@ PUT netflix-partial-matches
 }
 ```
 
-Here we've created a custom analyzer as part of our index and instructed OpenSearch to use that analyzer in place of the default `standard` analyzer for the `title` field.
+Here we've defined a custom analyzer as part of our index and instructed OpenSearch to use that analyzer in place of the default `standard` analyzer in an additional `title.ngram` subfield that can be queried alongside the original `title` field. It's common practice to add additional indexed versions of a field like this rather than replacing them so that you can still access the `text` version of the field for queries where it's a better fit.
 
 Let's re-index our data into the new index:
 
@@ -174,14 +179,27 @@ POST _reindex
 }
 ```
 
-And now we can try searching for a partial title match:
-
+Searching for a partial match on the `title` field should still return no matches:
 ```
 GET netflix-partial-matches/_search
 {
   "query": {
     "match": {
       "title": "Quee"
+    }
+  }
+}
+```
+
+
+But if we search for a partial title in our new `ngram` subfield we should see some results:
+
+```
+GET netflix-partial-matches/_search
+{
+  "query": {
+    "match": {
+      "title.ngram": "Quee"
     }
   }
 }
@@ -195,7 +213,7 @@ There's a helpful feature in the analysis API that lets you test how a string wo
 POST netflix-partial-matches/_analyze
 {
   "text": "Queer Eye",
-  "field": "title"
+  "field": "title.ngram"
 }
 ```
 
